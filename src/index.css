@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*
+  background: black url("res/group_meerkat.jpg") no-repeat top right;
+  background-size: 400px 240px;
+  transform: rotateY(180deg); */
+  background: black;
+  color: #b2afaf;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.headings{
+  color: white;
+  font-size: 12pt;
+  font-family: Calibri, sans-serif;
+}
+
+.headings_2{
+  color: white;
+  font-size:10pt;
+  font-family: Calibri, sans-serif;
+}
+
+.pColor {
+  color: #ff0048
+}
+
+.pPadding {
+  padding: 2pt;
+  margin:1pt
+}
+
+.titleColor {
+  color: #00FFFF;
+}
+
+.companyImage{
+
+  background: url("res/group_meerkat.jpg") no-repeat top right;
+  background-size: 400px 250px;
+  height: 200px;
+  width: 400px;
+  padding: 0;
+
+  -webkit-box-shadow:0 0 20px #ffffff;
+  -moz-box-shadow: 0 0 20px #ffffff;
+  box-shadow:0 0 20px #ffffff;
+}
+
+.flex-cont{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.languageHighlight{
+  color: #35ff35;
+  -webkit-box-shadow:0 0 5px #d9ffc1;
+  -moz-box-shadow: 0 0 5px #c9ffaf;
+  box-shadow:0 0 5px #73ff00;
+}
+
+
+
+
+
+
+
